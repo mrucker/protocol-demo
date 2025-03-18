@@ -1,0 +1,13 @@
+{
+    "header_text": "Videos",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Below is what a video looks like when it is included"
+        },
+        {
+            "type": "Media",
+            "url": "/videos/video1.mp4"
+        },
+    ]
+}

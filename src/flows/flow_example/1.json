@@ -1,0 +1,5 @@
+{
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
+    "elements": [ { "type": "Text", "text": "Digital Trails allows reserachers to create sequences of questions and content. " } ]
+}

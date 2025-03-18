@@ -1,0 +1,5 @@
+{
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
+    "elements": [ { "type": "Text", "text": "When users reach the end of a flow they are returned to the home page." } ]
+}

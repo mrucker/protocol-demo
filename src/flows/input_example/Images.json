@@ -1,0 +1,13 @@
+{
+    "header_text": "Images",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Below is what it looks like to include an image"
+        },
+        {
+            "type": "Media",
+            "url": "/images/image1.jpg"
+        },
+    ]
+}

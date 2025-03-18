@@ -1,0 +1,68 @@
+{
+	"datums_endpoint": "https://digital-trails.org/api/v1/datums",
+	"icon": "/assets/trailsicon.svg",
+	"home": {
+		"title": "Digital Trails",
+		"banner_text": "See what is possible.",
+		"banner_icon": "/assets/trailsicon.svg",
+
+		"button_tl": {
+			"text": "Input Examples",
+			"icon": "/assets/inputs.png",
+			"action": "flow://flows/inputs"
+		},
+		"button_tr": {
+			"text": "Protocol Source Content",
+			"icon": "/assets/github.png",
+			"action": "https://github.com/mrucker/protocol-demo"
+		},
+		"button_br": {
+			"text": "Digital Trails Web",
+			"icon": "/assets/globe.svg",
+			"action": "https://digital-trails.org"
+		},
+		"button_bl": {
+			"text": "Flow Example",
+			"icon": "/assets/flow.svg",
+			"action": "flow://flows/flow_example"
+		}
+	},
+	"menu": {
+		"custom": [
+			{
+				"text": "Input Examples",
+				"icon": "/assets/inputs.png",
+				"action": "flow://flows/inputs"
+			},
+			{
+				"text": "Protocol Source Content",
+				"icon": "/assets/github.png",
+				"action": "https://github.com/mrucker/protocol-demo"
+			},
+			{
+				"text": "Digital Trails Web",
+				"icon": "/assets/globe.svg",
+				"action": "https://digital-trails.org"
+			},
+			{
+				"text": "Flow Example",
+				"icon": "/assets/flow.svg",
+				"action": "flow://flows/flow_example"
+			}
+		]
+	},
+	"triggers": [
+		{
+			"type": "timing",
+			"action": "notification",
+			"content": "flow://flows/survey1",
+			"frequency": "00:05:00"
+		},
+		{
+			"type": "timing",
+			"action": "notification",
+			"content": "flow://flows/survey2",
+			"frequency": "01:00:00"
+		}
+	]
+}
