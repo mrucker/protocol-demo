@@ -1,0 +1,9 @@
+{
+    "header_text": "Flow",
+    "elements": [ 
+		{ 
+			"type": "Text", 
+			"text": "This content is an 'after' page. Everytime a user accesses this flow they will see this content after the rest of the flow's content."
+		}
+	]
+}

@@ -1,5 +1,4 @@
 {
-    "header_text": "Demographics",
-    "header_icon": "assets/subtitle.png",
-    "elements": [ { "type": "Text", "text": "Each page in a sequence can have its own content and questions. " } ]
+    "header_text": "Flow",
+    "elements": [ { "type": "Text", "text": "Each page in a sequence has its own content. " } ]
 }

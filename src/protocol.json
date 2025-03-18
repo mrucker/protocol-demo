@@ -1,5 +1,4 @@
 {
-	"datums_endpoint": "https://digital-trails.org/api/v1/datums",
 	"icon": "/assets/trailsicon.svg",
 	"home": {
 		"title": "Digital Trails",
@@ -8,12 +7,12 @@
 
 		"button_tl": {
 			"text": "Input Examples",
-			"icon": "/assets/inputs.png",
-			"action": "flow://flows/inputs"
+			"icon": "/assets/inputs.svg",
+			"action": "flow://flows/input_examples"
 		},
 		"button_tr": {
 			"text": "Protocol Source Content",
-			"icon": "/assets/github.png",
+			"icon": "/assets/github.svg",
 			"action": "https://github.com/mrucker/protocol-demo"
 		},
 		"button_br": {
@@ -31,12 +30,12 @@
 		"custom": [
 			{
 				"text": "Input Examples",
-				"icon": "/assets/inputs.png",
+				"icon": "/assets/inputs.svg",
 				"action": "flow://flows/inputs"
 			},
 			{
 				"text": "Protocol Source Content",
-				"icon": "/assets/github.png",
+				"icon": "/assets/github.svg",
 				"action": "https://github.com/mrucker/protocol-demo"
 			},
 			{

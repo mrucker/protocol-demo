@@ -1,0 +1,10 @@
+{
+    "header_text": "Flow",
+    "elements": [ 
+		{ 
+			"type": "Text", 
+			"html": true,
+			"text": "Flows are carefully controlled sequences of pages. For example, this page is a 'first' page. This page will only shows the first time a flow is executed. The next time you return to this flow, the normal content will be shown instead of the 'first' content." 
+		}
+	]
+}
