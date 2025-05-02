@@ -8,34 +8,34 @@
 
 		"button_ls": {
 			"text": "{0} Sessions Completed",
-			"icon": "/assets/completed.png"
+			"icon": "/icons/flower.png"
 		},
 		"button_rs": {
 			"text": "Launch Session",
-			"icon": "/assets/unlocked.png",
-			"action": "flow://flows/sessions"
+			"icon": "/icons/seedling.png",
+			"action": ""
 		},
 		"button_surveys": {
 			"text": "Show Surveys"
 		},
 		"button_tl": {
-			"text": "What is MindTrails?",
-			"icon": "/assets/home_mindtrails.png",
-			"action": "flow://flows/rationale.json"
+			"text": "Digital Trails",
+			"icon": "/icons/trails.png",
+			"action": "https://digital-trails.org"
 		},
 		"button_tr": {
-			"text": "Instructions",
-			"icon": "/assets/home_instructions.png",
-			"action": "flow://flows/instructions.json"
+			"text": "Demo Source",
+			"icon": "/icons/github.png",
+			"action": "https://github.com/digital-trails/protocol-demo"
 		},
 		"button_br": {
-			"text": "Resources",
-			"icon": "/assets/home_resources.png",
+			"text": "Page",
+			"icon": "/icons/page.png",
 			"action": "page://flows/resources.json"
 		},
 		"button_bl": {
-			"text": "What is Anxiety?",
-			"icon": "/assets/home_anxiety.png",
+			"text": "Flow",
+			"icon": "/icons/pages.png",
 			"action": "flow://flows/what is anxiety.json"
 		}
 	},
@@ -45,51 +45,6 @@
 	},
 
 	"menu": [
-		{
-			"text": "What is MindTrails?",
-			"icon": "/assets/menu_mindtrails.png",
-			"action": "flow://flows/rationale.json"
-		},
-		{
-			"text": "Introduction",
-			"icon": "/assets/menu_mindtrails.png",
-			"action": "flow://flows/intro"
-		},
-		{
-			"text": "Instructions",
-			"icon": "/assets/menu_instructions.png",
-			"action": "flow://flows/instructions.json"
-		},
-		{
-			"text": "What is Anxiety?",
-			"icon": "/assets/menu_anxiety.png",
-			"action": "flow://flows/what is anxiety.json"
-		},
-		{
-			"text": "Resources",
-			"icon": "/assets/menu_resources.png",
-			"action": "flow://flows/resources.json"
-		},
-		{
-			"text": "F.A.Q.",
-			"icon": "/assets/menu_faq.png",
-			"action": "flow://flows/faq.json"
-		},
-		{
-			"text": "Meet the Team",
-			"icon": "/assets/menu_team.png",
-			"action": "https://ert6g2.wixsite.com/hoosthinkcalmly/contact-the-team"
-		},
-		{
-			"text": "Get Help",
-			"icon": "/assets/menu_help.png",
-			"action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
-		},
-		{
-			"text": "Disclaimer",
-			"icon": "/assets/menu_disclaimer.png",
-			"action": "flow://flows/disclaimer.json"
-		}
 	],
 
 	"triggers": [
