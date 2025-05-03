@@ -30,7 +30,7 @@
 		},
 		"button_br": {
 			"text": "Page",
-			"icon": "/icons/page.png",
+			"icon": {"url":"/icons/page.png", "tint":true},
 			"action": "page://flows/resources.json"
 		},
 		"button_bl": {
