@@ -3,7 +3,7 @@
 	"home": {
 		"title": "Digital Trails Demo (Mark Rucker)",
 		"banner_text": "Digital Trails Demo",
-		"banner_icon": "/icons/trails.png",
+		"banner_icon": {"url":"/icons/trails.png", "tint":false},
 
 		"button_ls": {
 			"text": "{0} Sessions Completed",
@@ -19,7 +19,7 @@
 		},
 		"button_tl": {
 			"text": "Digital Trails",
-			"icon": "/icons/trails.png",
+			"icon": {"url":"/icons/trails.png", "tint":false},
 			"action": "https://digital-trails.org"
 		},
 		"button_tr": {
