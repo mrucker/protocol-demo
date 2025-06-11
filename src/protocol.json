@@ -1,65 +1,43 @@
 {
 	"icon": "/assets/home_mindtrails.png",
 	"home": {
-		"title": "Digital Trails Demo (Mark Rucker)",
-		"banner_text": "Digital Trails Demo",
-		"banner_icon": {"url":"/icons/trails.png", "tint":false},
-
-		"button_ls": {
-			"text": "{0} Sessions Completed",
-			"icon": "/icons/flower.png"
-		},
-		"button_rs": {
-			"text": "Launch Session",
-			"icon": "/icons/seedling.png",
-			"action": ""
-		},
-		"button_surveys": {
-			"text": "Show Surveys"
-		},
-		"button_tl": {
-			"text": "Digital Trails",
-			"icon": {"url":"/icons/trails.png", "tint":false},
-			"action": "https://digital-trails.org"
-		},
-		"button_tr": {
-			"text": "Demo Source",
-			"icon": "/icons/github.png",
-			"action": "https://github.com/digital-trails/protocol-demo"
-		},
-		"button_br": {
-			"text": "Page",
-			"icon": {"url":"/icons/page.png", "tint":true},
-			"action": "page://flows/resources.json"
-		},
-		"button_bl": {
-			"text": "Flow",
-			"icon": "/icons/pages.png",
-			"action": "flow://flows/what is anxiety.json"
+	  "title": "MindTrails",
+	  "elements": [
+		{ 
+		  "type": "Sessions",
+		  "left": {"text": "{0} Completed Sessions", "icon": "/icons/flower.png"},
+		  "right": {"text": "Launch Session", "icon": "/icons/seedling.png", "action": "flow://flows/what is anxiety.json" }
 		}
+	  ]
 	},
-
 	"settings": {
-		"unenroll":"flow://flows/reasons for ending/"
+	  "unenroll": "flow://flows/reasons for ending/"
 	},
-
 	"menu": [
+	
 	],
-
 	"triggers": [
-		{
-			"type": "timing",
-			"frequency": "1",
-			"time": "20:00",
-			"action": "notification",
-			"content": "flow://flows/end of day/"
-		},
-		{
-			"type": "timing",
-			"frequency": "14",
-			"time": "20:00",
-			"action": "notification",
-			"content": "flow://flows/track your progress/"
-		}
+	  {
+	    "type": "timing",
+	    "frequency": "1",
+	    "time": "20:00",
+	    "action": "notification",
+	    "content": "flow://flows/end of day/"
+	  },
+	  {
+	    "type": "timing",
+	    "frequency": "14",
+	    "time": "20:00",
+	    "action": "notification",
+	    "content": "flow://flows/track your progress/"
+	  }
+	],
+	"probes": [
+	  {
+	    "type": "Location",
+	    "optional": true,
+	    "interval": "00:00:01",
+	    "accuracy": 5
+	  }
 	]
 }
